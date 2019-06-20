@@ -17,7 +17,6 @@ class HomeActivity : BaseActivity(0) {
 
         // add temporary stub for firebase
         mAuth = FirebaseAuth.getInstance()
-        mAuth.signOut()
 //        auth.signInWithEmailAndPassword("Vorchun87-07@mail.ru", "password")
 //            .addOnCompleteListener {
 //                if (it.isSuccessful){
