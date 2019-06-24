@@ -39,6 +39,7 @@ dependencies {
     // add google services firebase core and firebase auth
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-auth:17.0.0'
+    implementation 'com.google.firebase:firebase-database:17.0.0'
 }
 //add plug in google services
 apply plugin: 'com.google.gms.google-services'
