@@ -1,8 +1,9 @@
-package com.vorchun.myinstagram
+package com.vorchun.myinstagram.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import com.vorchun.myinstagram.R
 import kotlinx.android.synthetic.main.bottom_navigation_view.*
 
 abstract class BaseActivity(val navNumber: Int) : AppCompatActivity() {

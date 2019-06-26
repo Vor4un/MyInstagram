@@ -1,9 +1,10 @@
-package com.vorchun.myinstagram
+package com.vorchun.myinstagram.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
+import com.vorchun.myinstagram.R
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : BaseActivity(0) {

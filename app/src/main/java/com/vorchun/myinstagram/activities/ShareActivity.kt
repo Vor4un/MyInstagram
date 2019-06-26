@@ -1,9 +1,8 @@
-package com.vorchun.myinstagram
+package com.vorchun.myinstagram.activities
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import kotlinx.android.synthetic.main.activity_profile.*
+import com.vorchun.myinstagram.R
 
 class ShareActivity : BaseActivity(2) {
     private val TAG = "ShareActivity"

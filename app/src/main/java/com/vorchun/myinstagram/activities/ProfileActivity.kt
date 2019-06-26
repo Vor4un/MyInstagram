@@ -1,8 +1,9 @@
-package com.vorchun.myinstagram
+package com.vorchun.myinstagram.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import com.vorchun.myinstagram.R
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : BaseActivity(4) {

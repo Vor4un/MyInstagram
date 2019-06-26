@@ -1,4 +1,4 @@
-package com.vorchun.myinstagram
+package com.vorchun.myinstagram.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.vorchun.myinstagram.R
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_login.email_input
 
@@ -35,8 +36,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
                 }
             }
         } else {
-            Toast.makeText(this, "Please enter email and password", Toast.LENGTH_SHORT)
-                .show()
+            showToast("Please enter email and password")
         }
     }
 
